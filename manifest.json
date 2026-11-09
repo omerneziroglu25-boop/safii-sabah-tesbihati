@@ -1,0 +1,18 @@
+{
+  "name": "Şâfiî Sabah Namazı Tesbihâtı",
+  "short_name": "Şâfiî Tesbihât",
+  "description": "Şâfiî Mezhebine Göre Sabah Namazı Tesbihâtı, Âyetler, Zikirler, Zikirmatik ve Dualar",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#004d3e",
+  "theme_color": "#006450",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006450"/>
+      <stop offset="100%" stop-color="#003d31"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e4be"/>
+      <stop offset="50%" stop-color="#c49a45"/>
+      <stop offset="100%" stop-color="#9a7428"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- Outer Gold Border -->
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="url(#gold)" stroke-width="6" opacity="0.8"/>
+  <rect x="36" y="36" width="440" height="440" rx="80" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Center Rosette / Star Motif -->
+  <g transform="translate(256, 210) scale(1.1)">
+    <!-- 8-pointed star base -->
+    <path d="M 0,-110 L 32,-32 L 110,0 L 32,32 L 0,110 L -32,32 L -110,0 L -32,-32 Z" fill="none" stroke="url(#gold)" stroke-width="5" opacity="0.9"/>
+    <circle cx="0" cy="0" r="82" fill="#004d3e" stroke="url(#gold)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="6,4"/>
+    
+    <!-- Arabic Calligraphy "ذكر" or Crescent / Minaret -->
+    <path d="M -15,-40 C 35,-40 60,0 25,45 C -5,25 0,-15 -15,-40 Z" fill="url(#gold)"/>
+    <circle cx="15" cy="-25" r="7" fill="url(#gold)"/>
+  </g>
+
+  <!-- Typography: ŞÂFİÎ TESBİHAT -->
+  <text x="256" y="380" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="3">ŞÂFİÎ TESBİHÂTI</text>
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="20" fill="url(#gold)" text-anchor="middle" letter-spacing="4">SABAH NAMAZI</text>
+</svg>
